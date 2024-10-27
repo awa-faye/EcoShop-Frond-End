@@ -1,0 +1,95 @@
+/* Navbar.css */
+
+.navbar {
+    width: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Top section with white background */
+  .navbar-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #eafaf1;
+    padding: 10px 20px;
+    box-shadow: 0 4px 2px -2px gray;
+    min-height: 60px;
+  }
+  
+  /* Logo */
+  .navbar-logo a {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2E8B57;
+    text-decoration: none;
+  }
+  /* Navbar.css */
+
+.navbar-search {
+    position: relative; 
+  }
+  
+  .navbar-search input {
+    width: 300px; 
+    padding: 5px 40px 5px 10px; 
+    border: 2px solid #2E8B57;
+    border-radius: 10px;
+    height: 30px; 
+  }
+  
+  
+  .search-icon {
+    position: absolute; 
+    right: 1px; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    color: white; 
+    background-color: #2E8B57; 
+    border-top-right-radius: 10px;  /* Apply border-radius to the top right corner */
+    border-bottom-right-radius: 10px;
+    padding: 5px; 
+    cursor: pointer; 
+    width: 30px; 
+    height: 30px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+  }
+  
+  
+  .search-icon:hover {
+    background-color: #2E8B57;
+  }
+  
+  .search-icon svg {
+    width: 18px;
+    height: 18px; 
+  }
+  
+  /* Icons */
+  .navbar-icons .icon {
+    color: #2E8B57;
+    font-size: 20px;
+    margin: 0 10px;
+  }
+  
+  /* Bottom links with green background */
+  .navbar-links {
+    display: flex;
+    justify-content: center;
+    background-color: #2E8B57;
+    padding: 10px 0;
+    margin-top: 2px;
+  }
+  
+  .navbar-links a {
+    color: white;
+    font-size: 16px;
+    margin: 0 15px;
+    text-decoration: none;
+  }
+  
+  .navbar-links a:hover {
+    text-decoration: underline;
+  }
+  
