@@ -22,7 +22,7 @@ function Navbar() {
           <Link to="/profile" className="icon"><FaUser /></Link>
         </div>
       </div>
-      <div className="navbar-links">
+      <div className="navbar-links" style={{  fontSize: 24 }}>
         <Link to="/">Accueil</Link>
         <Link to="/products">Nos Produits</Link>
         <Link to="/ShoppingCart">Mon Panier</Link>

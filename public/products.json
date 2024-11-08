@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Organic Soap",
+    "image": "/images/Care.png",
+    "rating": 5,
+    "price": 1500,
+    "description": "A gentle organic soap made from natural ingredients."
+  },
+  {
+    "id": 2,
+    "name": "Eco Shampoo",
+    "image": "/images/cosmetique.png",
+    "rating": 4,
+    "price": 2000,
+    "description": "Natural shampoo with eco-friendly ingredients."
+  },
+  {
+    "id": 3,
+    "name": "Biodegradable Dental Floss",
+    "image": "/images/lait.jpg",
+    "rating": 5,
+    "price": 500,
+    "description": "Environmentally safe dental floss."
+  },
+  {
+    "id": 1,
+    "name": "Organic Soap",
+    "image": "/images/Care.png",
+    "rating": 5,
+    "price": 1500,
+    "description": "A gentle organic soap made from natural ingredients."
+  },
+  {
+    "id": 2,
+    "name": "Eco Shampoo",
+    "image": "/images/cosmetique.png",
+    "rating": 4,
+    "price": 2000,
+    "description": "Natural shampoo with eco-friendly ingredients."
+  },
+  {
+    "id": 3,
+    "name": "Biodegradable Dental Floss",
+    "image": "/images/lait.jpg",
+    "rating": 5,
+    "price": 500,
+    "description": "Environmentally safe dental floss."
+  },
+  {
+    "id": 1,
+    "name": "Organic Soap",
+    "image": "/images/Care.png",
+    "rating": 5,
+    "price": 1500,
+    "description": "A gentle organic soap made from natural ingredients."
+  },
+  {
+    "id": 2,
+    "name": "Eco Shampoo",
+    "image": "/images/cosmetique.png",
+    "rating": 4,
+    "price": 2000,
+    "description": "Natural shampoo with eco-friendly ingredients."
+  },
+  {
+    "id": 3,
+    "name": "Biodegradable Dental Floss",
+    "image": "/images/lait.jpg",
+    "rating": 5,
+    "price": 500,
+    "description": "Environmentally safe dental floss."
+  }
+]
