@@ -70,5 +70,13 @@
     "rating": 5,
     "price": 500,
     "description": "Environmentally safe dental floss."
+  },
+  {
+    "id": 3,
+    "name": "Biodegradable Dental Floss",
+    "image": "/images/lait.jpg",
+    "rating": 5,
+    "price": 500,
+    "description": "Environmentally safe dental floss."
   }
 ]
