@@ -46,7 +46,7 @@ function ShoppingCart() {
           <div className="cart-summary">
             <h2>Résumé de la commande</h2>
             <p>Total pour tous les articles: {grandTotal} FCFA</p>
-            <button className="checkout-button">Passer à la caisse</button>
+            <button className="checkout-button" onClick={() => navigate('/contact')}>Passer à la caisse</button>
             <button className="back-to-products-button" onClick={() => navigate('/products')}>
             Retour aux produits
             </button>
