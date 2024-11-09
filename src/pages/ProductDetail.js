@@ -6,6 +6,7 @@ import '../App.css';
 function ProductDetail() {
   const { id } = useParams();
   const [product, setProduct] = useState(null);
+  const [successMessage, setSuccessMessage] = useState(''); 
   const navigate = useNavigate();
   const { addToCart } = useCart(); 
 
@@ -25,12 +26,22 @@ function ProductDetail() {
     fetchProductDetail();
   }, [id]);
 
+  const handleAddToCart = () => {
+    addToCart(product);
+    setSuccessMessage('Produit ajouté au panier avec succès !'); 
+
+    
+    setTimeout(() => {
+      setSuccessMessage('');
+    }, 3000);
+  };
+
   if (!product) return <p>Loading...</p>;
 
   return (
     <div className="product-detail">
       <button className="back-button" onClick={() => navigate(-1)}>
-        Back to Products
+      Retour aux produits
       </button>
       <div className="product-detail-content">
         <img src={product.image} alt={product.name} className="product-image-detail" />
@@ -45,9 +56,10 @@ function ProductDetail() {
               </span>
             ))}
           </div>
-          <button className="add-to-cart-button" onClick={() => addToCart(product)}>
-            Add to Cart
+          <button className="add-to-cart-button" onClick={handleAddToCart}>
+          Ajouter au panier
           </button>
+          {successMessage && <p className="success-message">{successMessage}</p>} {/* Success message */}
         </div>
       </div>
     </div>

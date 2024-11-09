@@ -1,0 +1,151 @@
+.contact-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .contact-title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .contact-form-container {
+    display: flex;
+    gap: 2rem;
+    width: 80%;
+    max-width: 1000px;
+  }
+  
+  .contact-form {
+    flex: 1;
+    padding: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    outline: none; 
+  }
+  
+  input:focus, textarea:focus {
+    border-color: #2E8B57; 
+    box-shadow: 0 0 4px #2E8B57; 
+  }
+  
+  textarea {
+    resize: vertical;
+    height: 80px;
+  }
+  
+  .cart-summary {
+    flex: 1;
+    padding: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f4f4f4;
+  }
+  
+  .cart-summary h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .cart-item-image {
+    width: 60px;
+    height: 60px;
+    margin-right: 1rem;
+  }
+  
+  .cart-item-details {
+    flex: 1;
+  }
+  
+  .cart-item-name, .cart-item-price, .cart-item-quantity, .cart-item-total {
+    display: block;
+  }
+  
+  .grand-total {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+  }
+  
+  .contact-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-form-container {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  max-width: 900px;
+  width: 100%;
+  margin: 1.5rem 0;
+  position: relative;
+}
+
+.contact-form, .cart-summary {
+  flex: 1;
+}
+
+.contact-actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 3rem; 
+}
+
+
+.back-to-products-button {
+  width: 200px; 
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: none;
+  white-space: nowrap;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.validate-order-button {
+    width: 180px;
+    padding: 0.1rem ;
+    font-size: 1rem;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+.back-to-products-button {
+  background-color: #2E8B57;
+  color: white;
+}
+
+.validate-order-button {
+  background-color: #2E8B57;
+  color: white;
+}
+
+.back-to-products-button:hover, .validate-order-button:hover {
+  background-color: #3e9e68;
+}
