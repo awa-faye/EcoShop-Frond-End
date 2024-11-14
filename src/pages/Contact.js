@@ -4,7 +4,7 @@ import '../styles/Contact.css';
 
 function Contact() {
   const { cart } = useCart();
-  
+
 
   const [formData, setFormData] = useState({
     name: '',
