@@ -5,7 +5,7 @@ import '../styles/Contact.css';
 
 function Contact() {
   const { cart } = useCart();
-  const navigate = useNavigate();
+
 
   const [formData, setFormData] = useState({
     name: '',
