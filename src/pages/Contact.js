@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { useCart } from '../CartContext';
-import { useNavigate } from 'react-router-dom';
 import '../styles/Contact.css';
 
 function Contact() {
