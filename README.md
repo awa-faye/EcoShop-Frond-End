@@ -14,6 +14,8 @@ Run npm start  for a dev server. Navigate to (http://localhost:3000/). The appli
 
 This project uses a JSON API to fetch product data. Below is an overview of the API and its endpoints.
 
+### Version déployée
+[Live Demo](https://my-eco-shop.netlify.app/)
 
 ### Endpoints
 #### Get All Products
@@ -36,5 +38,11 @@ This project uses a JSON API to fetch product data. Below is an overview of the 
     "price": 1500,
     "description": "A gentle organic soap made from natural ingredients."
   }
+
+
+
+
+
+
 
 
